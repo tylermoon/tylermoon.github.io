@@ -9,6 +9,8 @@ Email: moon.tyler@gmail.com
 
 GitHub: [https://github.com/tmoon8730]()
 
+Resume: [TylerMoonResume2017](https://github.com/tylermoon/tylermoon.github.io/blob/master/TylerMoonResume2017.pdf)
+
 ## Technical Skills
 
 | Standard Languages                                               | Web Development                                          |  IDE's and Tools                           | Scripting Languages | Mobile Development |
