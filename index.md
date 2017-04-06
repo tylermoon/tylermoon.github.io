@@ -19,7 +19,7 @@ GitHub: [https://github.com/tmoon8730]()
 | [C#](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) | [MEAN Stack](http://mean.io/) (MongoDB, ExpressJS, AngularJS, and Node.js)  | [Spring Tool Suite](http://spring.io/tools/sts)| [Ruby](https://www.ruby-lang.org/en/) |                    |
 | [Objective C](https://www.tutorialspoint.com/objective_c/)| [MeteorJS](https://www.meteor.com/) | [Atom](https://atom.io/) | [Markdown](https://en.wikipedia.org/wiki/Markdown) |                    |
 | [Swift](https://developer.apple.com/swift/) | [ASP.NET MVC](https://msdn.microsoft.com/en-us/library/dd381412(v=vs.108).aspx) | [Amazon AWS](https://aws.amazon.com/)  |                     |                    |
-| [Spring Boot](http://spring.io/) |                                                          | [Digital Ocean Servers](https://www.digitalocean.com/)    |                     |                    |
+| [Spring Boot](http://spring.io/) | [Firebase](https://firebase.google.com/)                                                         | [Digital Ocean Servers](https://www.digitalocean.com/)    |                     |                    |
 
 * * *
 
@@ -195,3 +195,37 @@ app.post('/', function(req, res){
 });
 ```
 
+## SCS Android App
+- Source Code: [GitHub](https://github.com/tmoon8730/SCS)
+- Description: 
+- Technical Spec: Android Application with real time [Firebase](https://firebase.google.com/) database
+- Code Example:
+
+Java (Android):
+``` java
+    /*
+    * This method returns a integer value for the given index in the Firebase database.
+    * Uses a callback listener to handle returning data from an async thread
+    */
+    public void getIndexValue(String reference, final String indexName, @NonNull final SimpleCallback<Integer> finishedCallback){
+        DatabaseReference courseRef = firebaseDatabase.getReference(reference).child(indexName);
+        courseRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // This will simple call the callback interface SimpleCallback.java
+                try {
+                    finishedCallback.callback(dataSnapshot.getValue(Integer.class));
+                    System.out.println("Returning " + dataSnapshot.getValue(Integer.class) + " " + indexName);
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                // TODO: Add onCancelled stuff
+            }
+        });
+    }
+
+```
