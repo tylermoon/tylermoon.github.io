@@ -87,8 +87,6 @@ public class MemeExchangeApplication {
 }
 ```
 
-- Screenshot: ![](/assets/images/meirlbot-screenshot.png)
-
 ## Nutriments
 - Website: [http://nutrimentsapp.com/](http://nutrimentsapp.com/)
 - Source Code: [GitHub](https://github.com/tmoon8730/FATStats)
@@ -115,10 +113,6 @@ func createDrive(managedContext: NSManagedObjectContext, quarter: String, time: 
     return false
 }
 ```
-
-- Screenshot:
-
-![](http://nutrimentsapp.com/img/portfolio/buttonsSupplements.jpg)
 
 
 ## AndroidMultiTool
