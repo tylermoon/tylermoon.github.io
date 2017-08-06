@@ -15,22 +15,13 @@
   <body>
     <div id="container">
       <div class="inner">
-
-        <header>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <header align="center">
+          <h1>Tyler Moon</h1>
+          <h2>Nerd - Programmer - U of SC Student</h2>
+          <div id="contactInfo">
+            <a href="https://www.linkedin.com/in/tyler-moon-21036393/">LinkedIn</a> - <a href="https://github.com/tmoon8730">GitHub</a>
+          </div>
         </header>
-        <section id="downloads" class="clearfix">
-          {% if site.show_downloads %}
-          <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          {% endif %}
-	  {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-	  {% else %}
-          <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-	  {% endif %}  
-        </section> 
         <hr>
         <section id="main_content">
           {{ content }}

@@ -1,123 +1,70 @@
 ---
 layout: default
 ---
+# Resume - [Side Projects](another-page)
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+---
 
-[Link to another page](another-page).
+## [](#header-1)**Technical Summary**
 
-There should be whitespace between paragraphs.
+* _Language_: Java, C++, C#, Swift, HTML, CSS, JavaScript, Java, XML, Python
+* _Platform_: Android (Java, XML), iOS(XCode, Swift), SAAS (Java Spring, ASP.NET MVC)
+* _GIS_: ArcGIS, ArcMap, MySQL (with geo-plugin)
+* _Operating System_: Mac, Windows, Linux
+* _Cloud Systems_: Google Cloud, Amazon AWS, Azure Cloud, Digital Ocean
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## [](#header-1)**Professional Experience**
 
-# [](#header-1)Header 1
+**Avidxchange - Charlotte , NC				-				July 2016 - August 2017**
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+_Software Development Intern								July 2017 - August 2017_
 
-## [](#header-2)Header 2
+- Refactored MVC controllers to Web API controllers in an enterprise code refactoring effort
+- Researched, designed, and implemented a NuGet library to standardize cross service communication for multiple teams using RabbitMQ
+- Collaborated with a fellow intern in a paired-programming prototype project
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+_Software Development Intern								July 2016 - August 2016_
 
-### [](#header-3)Header 3
+- Researched, designed, and built a prototype IVR automation program with a two factor authentication system
+- Designed and built a web automation framework using C# and Selenium as well as a Node.js and MongoDB website for testing the framework
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Center for Digital Humanities - Columbia, SC						January 2016 - Present**
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+_System Administration Intern								August 2016 - May 2017_
 
-#### [](#header-4)Header 4
+- Responsible for setting up,  maintaining and backing up development and production servers
+- Implemented source control, virtual private servers, and Docker containers.
+- Worked on a Meteor.js web-application for touchscreen displays in the USC Museum
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+_Web Development Intern									January 2016 - May 2016_
 
-##### [](#header-5)Header 5
+- Worked on several PHP and JavaScript website projects
+- Completed initial research into Docker containerization
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+**Perahealth - Charlotte, NC								May 2015 - December 2015**
 
-###### [](#header-6)Header 6
+_Software Development Intern_
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+* In an Agile Development process, drastically overhauled an AngularJS web application with the Highcharts charting library and a SQL database
+* Fixed Javascript and AngularJS bugs in several projects
+* Created a Java program to simulate data feeds for testing software
+* Created an iOS application with a Java data api to access a SQL database
 
-### There's a horizontal rule below this.
+**3D Systems - Rock Hill, SC								October 2013 - August 2014**
 
-* * *
+_Quality Assurance Intern_
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+* Responsible for testing software and firmware for 3D Printers
+* Helped create and implement testing plans for printer software and firmware
+* Created an automated GUI testing system using Sikuli
+* Assisted developers in fixing minor bugs using C# and XAML
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## [](#header-1)**Education**
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- University of South Carolina – Columbia, SC						May 2018
+- Bachelors of Computer Science with a Concentration in Geographic Information Systems
+- Current GPA: 3.1
+- USC Dean’s List - Fall 2014
+- President of CSCC Club - Fall 2015 to Present
