@@ -9,7 +9,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <title>Tyler Moon</title>
   </head>
 
   <body>
@@ -17,7 +17,7 @@
       <div class="inner">
         <header align="center">
           <h1>Tyler Moon</h1>
-          <h2>Nerd - Programmer - U of SC Student</h2>
+          <h2>Programmer - U of SC Student</h2>
           <div id="contactInfo">
             <a href="https://www.linkedin.com/in/tyler-moon-21036393/">LinkedIn</a> - <a href="https://github.com/tmoon8730">GitHub</a>
           </div>
@@ -36,16 +36,5 @@
 
       </div>
     </div>
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
